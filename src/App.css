@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --marine-blue: #02295a;
+  --purplish-blue: #483eff;
+  --pastel-blue: #bfe2fd;
+  --light-blue: #abbcff;
+  --strawberry-red: #ed3548;
+  --cool-gray: #9699aa;
+  --light-gray: #d6d9e6;
+  --magnolia: #f0f6ff;
+  --alabaster: #fafbff;
+  --white: #ffffff;
+}
+
+@layer base {
+  body {
+    background-color: var(--magnolia);
+    font-family: 'Ubuntu', sans-serif;
+  }
+}
+
+@layer utilities {
+  .text-marine-blue {
+    color: var(--marine-blue);
+  }
+  
+  .text-purplish-blue {
+    color: var(--purplish-blue);
+  }
+  
+  .text-pastel-blue {
+    color: var(--pastel-blue);
+  }
+  
+  .text-light-blue {
+    color: var(--light-blue);
+  }
+  
+  .text-strawberry-red {
+    color: var(--strawberry-red);
+  }
+  
+  .text-cool-gray {
+    color: var(--cool-gray);
+  }
+  
+  .text-light-gray {
+    color: var(--light-gray);
+  }
+  
+  .bg-marine-blue {
+    background-color: var(--marine-blue);
+  }
+  
+  .bg-purplish-blue {
+    background-color: var(--purplish-blue);
+  }
+  
+  .bg-pastel-blue {
+    background-color: var(--pastel-blue);
+  }
+  
+  .bg-light-blue {
+    background-color: var(--light-blue);
+  }
+  
+  .bg-strawberry-red {
+    background-color: var(--strawberry-red);
+  }
+  
+  .bg-cool-gray {
+    background-color: var(--cool-gray);
+  }
+  
+  .bg-light-gray {
+    background-color: var(--light-gray);
+  }
+  
+  .bg-magnolia {
+    background-color: var(--magnolia);
+  }
+  
+  .bg-alabaster {
+    background-color: var(--alabaster);
+  }
+  
+  .border-marine-blue {
+    border-color: var(--marine-blue);
+  }
+  
+  .border-purplish-blue {
+    border-color: var(--purplish-blue);
+  }
+  
+  .border-light-gray {
+    border-color: var(--light-gray);
+  }
+  
+  .border-strawberry-red {
+    border-color: var(--strawberry-red);
+  }
+} 
